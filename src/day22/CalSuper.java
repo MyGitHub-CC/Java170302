@@ -35,16 +35,16 @@ public class CalSuper {
 		// 第一种添加下拉列表的方式
 //		comboBox=new JComboBox();
 //		comboBox.setPreferredSize(new Dimension(50, 20));
-//        comboBox.addItem("+");  
-//        comboBox.addItem("-");  
-//        comboBox.addItem("*");  
-//        comboBox.addItem("/");  
-//        panel.add(comboBox); 
+//      comboBox.addItem("+");  
+//      comboBox.addItem("-");  
+//      comboBox.addItem("*");  
+//      comboBox.addItem("/");  
+//      panel.add(comboBox); 
 		
 		// 第二种添加下拉列表的方式
 //		comboBox = new JComboBox();
-//        comboBox.setModel(new DefaultComboBoxModel(new String[] {"+","-","*","/"}));
-//        panel.add(comboBox);
+//      comboBox.setModel(new DefaultComboBoxModel(new String[] {"+","-","*","/"}));
+//      panel.add(comboBox);
 		
 		String[] str = {"+", "-", "*", "/"};
 		comboBox=new JComboBox(str);

@@ -10,10 +10,10 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import day22.studentManager.entity.Student;
+import day22.homeWorkStudentManager.entity.Student;
 
 public class StudentDao {
-	private static final String FILE = "D:/sss.txt";
+	private static final String FILE = "F:/ddd.txt";
 	@SuppressWarnings("unchecked")
 	public List<Student> load() {
 		List<Student> list = new ArrayList<Student>();

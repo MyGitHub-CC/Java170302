@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
 
-import day22.studentManager.entity.Student;
+import day22.homeWorkStudentManager.entity.Student;
 
 /**
  * 
